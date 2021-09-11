@@ -1,0 +1,126 @@
+
+/* ------------header--------- */
+header{
+    text-align: center;
+    height: 100vh;
+    background: url("https://img1.goodfon.com/wallpaper/nbig/5/73/happy-balloons-colorful-sky-6257.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header img{
+    width: 70%;
+    text-align: right;
+}
+header div a{
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    padding: 0 100px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+header div h1{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+}
+
+
+/* ------------ first section ------------- */
+section h1{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+
+section#about-us{
+    width: 100vw;
+    text-align: center;
+    background-color:whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+section div img{
+    max-width: 100%;
+}
+p.maxima-people{
+    padding: 15px 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* ------------second section ----------- */
+
+section#goods{
+    width: 100vw;
+    text-align: center;
+    background-color:#E8E8E8;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+div.goods div{
+    width: 50%;
+    float: left;
+    background-color:#E8E8E8;
+}
+div.goods img{
+    max-width: 70%;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+div.goods img:hover{
+    opacity: 0.7;
+    box-shadow: 0 25px 35px 0 black;
+}
+
+div.goods h2{
+    font-family: 'Lobster', cursive;
+}
+div.goods div:nth-child(3){
+    padding-bottom: 70px;
+}
+div.goods div:last-child{
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+/* ------------- third section ------------ */
+section#contacts{
+    width: 100vw;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+section#contacts div a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+section#contacts div p{
+    font-family: 'Lobster', cursive;
+}
+
+section#contacts div{
+    padding-bottom: 20px;
+}
+
+section#contacts :nth-child(2){
+    padding-bottom: 0px;
+}
+/* ----------footer ---------- */
+
+footer{
+    text-align: center;
+    font-size: large;
+    color: rebeccapurple;
+    margin-top:100px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
